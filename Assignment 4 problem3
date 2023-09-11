@@ -1,0 +1,7 @@
+#Write a Python program to square the elements of a list using map() function
+#ASSIGNMENT 4,PROBLEM 3
+
+lst = [6,5,4,3]
+square = lambda x : x**2
+square_list = list(map(square, lst))
+print(square_list)
