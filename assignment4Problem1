@@ -1,0 +1,4 @@
+number = int(input())  
+sum_function = lambda x: x + 25 
+result = sum_function(number)  
+print(result) 
