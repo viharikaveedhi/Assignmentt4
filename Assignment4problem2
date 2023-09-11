@@ -1,0 +1,7 @@
+#ASSIGNMENT 4, PROBLEM 2
+#Write a Python program to triple all numbers of a given list of integers. Use Python map.
+
+lst = [10, 20, 30, 40, 50,]
+triple = lambda x: x * 3
+result = list(map(triple, lst))
+print(result)
